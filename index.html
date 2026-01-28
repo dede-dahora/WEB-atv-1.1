@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Petshop da ViihTube: Produtos e serviços para pets, com dicas da influencer ViihTube. Compre ração, brinquedos e mais!">
+    <meta name="keywords" content="petshop, pets, ração, brinquedos, ViihTube, influencer">
+    <title>Petshop da ViihTube - Cuidado e Diversão para seu Pet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Petshop da ViihTube</h1>
+        <p>Cuidado e diversão para seu pet, com dicas da ViihTube!</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div>
+            <h2>Bem-vindo ao Petshop da ViihTube!</h2>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>O Petshop da ViihTube nasceu da paixão por animais e da parceria com a influencer ViihTube, que compartilha dicas incríveis em seu canal. Nossa missão é oferecer produtos de qualidade e serviços para que seu pet viva feliz e saudável.</p>
+        <img src="https://via.placeholder.com/400x200?text=ViihTube+com+Pets" alt="ViihTube com pets" style="width: 100%; max-width: 400px;">
+    </section>
+
+    <section id="produtos">
+        <h2>Produtos em Destaque</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://th.bing.com/th/id/OIP.kgeBfWsDu7kUoBRdEft4FQHaHa?w=194&h=195&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Ração Premium">
+                <h3>Ração Premium para Cães</h3>
+                <p>R$ 49,90 - Nutrição completa e saudável.</p>
+                <button onclick="alert('Produto adicionado ao carrinho!')">Comprar</button>
+            </div>
+            <div class="product">
+                <img src="data:image/webp;base64,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" alt="Brinquedo Interativo">
+                <h3>Brinquedo Interativo para Gatos</h3>
+                <p>R$ 29,90 - Diversão garantida!</p>
+                <button onclick="alert('Produto adicionado ao carrinho!')">Comprar</button>
+            </div>
+            <div class="product">
+                <img src="https://th.bing.com/th/id/OIP.wzWcdJ5raqvsBJlmG82xHQHaHa?w=181&h=182&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Cama Confortável">
+                <h3>Cama Confortável para Pets</h3>
+                <p>R$ 79,90 - Conforto e estilo.</p>
+                <button onclick="alert('Produto adicionado ao carrinho!')">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <ul>
+            <li>Banho e Tosa: R$ 50,00</li>
+            <li>Consulta Veterinária: R$ 80,00</li>
+            <li>Adestramento Básico: R$ 100,00</li>
+        </ul>
+    </section>
+
+    <section id="eventos">
+        <h2>Eventos</h2>
+        <p>Participe da nossa Feira de Adoção Mensal! Próxima edição: 15 de outubro. Venha conhecer pets disponíveis para adoção.</p>
+        <img src="https://www.ligadonosul.com.br/wp-content/uploads/2024/10/whatsapp-image-2024-10-25-at-102556-e1729862789862.jpeg" alt="Feira de Adoção" style="width: 100%; max-width: 400px;">
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem"></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Telefone: (11) 99999-9999 | Email: contato@petshopviihtube.com</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0!2d-46.6!3d-23.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMwJzAwLjAiUyA0NsKwMzYnMDAuMCJX!5e0!3m2!1sen!2sbr!4v1234567890" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> <!-- Substitua por um embed real -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Petshop da ViihTube. Siga-nos: <a href="https://instagram.com/viihtube" target="_blank">Instagram</a> | <a href="https://youtube.com/viihtube" target="_blank">YouTube</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
